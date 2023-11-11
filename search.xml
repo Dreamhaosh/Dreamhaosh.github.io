@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>first note</title>
+    <url>/2023/11/11/first-note/</url>
+    <content><![CDATA[<p><strong>我的公众号“每日晴天”，可关注领取我的笔记pdf版哦~</strong></p>
+<p><strong>——————————————————————————</strong></p>
+<p>一、线性微分方程解的结构</p>
+<p>1、二阶线性微分方程的一般形式： d2ydx2+P(x)dydx+Q(x)y&#x3D;f(x)\frac{d^{2}y}{dx^{2}}+P(x)\frac{dy}{dx}+Q(x)y&#x3D;f(x)</p>
+<p>（特点是左端每一项关于未知函数y及y’、y’’都是一次的，若f(x)&#x3D;0，则称方程是齐次的，否则，当f(x)≠0时，方程叫非齐次的。）</p>
+<p>2、定理1：如果函数y1(x)和y2(x)是方程 y″+P(x)y′+Q(x)y&#x3D;0y’’+P(x)y’+Q(x)y&#x3D;0 的两个解，那么</p>
+<p>$y&#x3D;C1y1(x)+C2y2(x)y&#x3D;C_{1}y_{1}(x)+C_{2}y_{2}(x)$ 也是这个方程的解</p>
+<p>3、定理2：如果函数y1(x)和y2(x)是方程 y″+P(x)y′+Q(x)y&#x3D;0y’’+P(x)y’+Q(x)y&#x3D;0 的<strong>两个线性无关的特解</strong>，那么 y&#x3D;C1y1(x)+C2y2(x)y&#x3D;C_{1}y_{1}(x)+C_{2}y_{2}(x) 是这个方程的通解。</p>
+<p><strong>（线性相关的定义：</strong> 设y1(x)、y2(x)…yn(x)为定义在趋于I上的n个函数，如果存在n个不全为0的常数k1，k2…kn，使得x∈I时有恒等式 k1y1+k2y2+…knyn≡0k_{1}y_{1}+k_{2}y_{2}+…k_{n}y_{n}≡0 成立，则称这n个函数在区间I上线性相关，否则称线性无关。）</p>
+<p>4、定理3：设 y∗(x)y^{*}(x)是二阶非齐次线性方程 y″+P(x)y′+Q(x)y&#x3D;f(x)y’’+P(x)y’+Q(x)y&#x3D;f(x) 的一个特解，Y(x)是与这个方程对应的齐次方程 y″+P(x)y′+Q(x)y&#x3D;0y’’+P(x)y’+Q(x)y&#x3D;0 的通解，则</p>
+<p><strong>y&#x3D;Y(x)+y∗(x)y&#x3D;Y(x)+y^{*}(x) 是二阶非齐次线性微分方程的通解。</strong></p>
+<p>5、定理4：设非齐次线性方程的右端f(x)是几个函数之和，如 $y″+P(x)y′+Q(x)y&#x3D;f1(x)+f2(x)y’’+P(x)y’+Q(x)y&#x3D;f_{1}(x)+f_{2}(x) $，而 y1∗(x)y_{1}^{<em>}(x) 和 y2∗(x)y_{2}^{</em>}(x) 分别是方程 ​<em>​**​</em>​ 和方程 ​<em>​**​</em>的特解，那么 y1∗(x)+y2∗(x)y_{1}^{<em>}(x)+y_{2}^{</em>}(x) 是方程 $y″+P(x)y′+Q(x)y&#x3D;f1(x)+f2(x)y’’+P(x)y’+Q(x)y&#x3D;f_{1}(x)+f_{2}(x)$ 的特解。</p>
+<p>6、定理5：设齐次微分方程y″+P(x)y′+Q(x)y&#x3D;0y’’+P(x)y’+Q(x)y&#x3D;0有一个非零解y1(x)，则必可借助y1(x)求出微分方程的另一个与y1(x)线性无关的解y2(x)，且有</p>
+<p>y2(x)&#x3D;y1(x)·∫1y12(x)e−∫P(x)dxdxy_{2}(x)&#x3D;y_{1}(x)·\int \frac{1}{y_{1}^{2}(x)}e^{-\int P(x)dx}dx</p>
+<p>7、二阶常系数线性齐次微分方程：形式：$ y″+py′+qy&#x3D;0y’’+py’+qy&#x3D;0$ 的步骤如下：</p>
+<p>（1）求出特征方程：$ r2+pr+q&#x3D;0r^{2}+pr+q&#x3D;0$</p>
+<p>（2）求出特征根： $r1,2&#x3D;−p2±p24−qr_{1,2}&#x3D;-\frac{p}{2}±\sqrt{\frac{p^{2}}{4}-q}$</p>
+<p>（3）根据特征根的三种不同情形分别写出微分方程的通解：</p>
+<p><img src="https://pic4.zhimg.com/v2-38b60d5f9726a258d1bfa7db6f12496b_b.jpg"></p>
+<p>推广到高阶微分方程：</p>
+<p><img src="https://pic2.zhimg.com/v2-d7370f1a9a8b9bf2507b1ac5d2b29bb9_b.jpg"></p>
+<p>8、二阶常系数非齐次线性微分方程：</p>
+<p>（1）一般形式： $y’’+py’+qy&#x3D;f(x)$</p>
+<p>（2）通解和之前的求法一样，现在求特解</p>
+<p>① $f(x)&#x3D;P_{m}(x)e^{λx}$</p>
+<p>则其特解为：$ y$​^^​$kQm(x)eλx$</p>
+<p>其中，$ Q_{m}(x) 是与 P_{m}(x)$ 同次（m次）的多项式（各系数待定，系数只要把特解带进去方程比较相同次数的系数就可以得出），而k按λ不是特征方程$r^{2}+pr+q&#x3D;0$的根、是特征方程的单根或者是特征方程的重根依次取0,1,2。</p>
+<p>（此方法可以推广到n阶情况，但是注意k是按照特征方程的根λ的重复次数（即若λ不是特征方程的根，k取0，是特征方程的s重根，则取s））</p>
+<p>②$ f(x)&#x3D;e^{λx}[P_{l}(x)coswx+P_{n}sinwx]$</p>
+<p>则其特解为： $y$​^^​$x$​^^​$ e$​^^​$[R_{m}$​^^​$(x)coswx+R_{m}$​^^​$(x)sinwx]$</p>
+<p>其中 $R_{m}$​^^​${2}(x) $是m次多项式，$m&#x3D;max{l，n}$而k按 $λ+iw（或λ-iw）$ 不是特征方程的根或是特征方程的单根分别取0或1。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/11/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
